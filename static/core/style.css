@@ -1,0 +1,52 @@
+body{
+	background-color:#c1f7f1;
+max-width: 700px;
+margin: auto;
+}
+h2,h1{
+
+color: #84aff5;
+front-size: 60px;
+font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+.side-by-side{ 
+   display:flex;
+}
+.side-by-side img{
+border: 3px solid black;
+}
+
+}
+p{
+
+color: black;
+.londrina-sketch-regular {
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+
+h3{
+
+color: #01505c;
+front-size: 60px;
+font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+}
+
+
+
+
+
+
+

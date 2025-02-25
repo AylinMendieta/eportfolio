@@ -4,7 +4,7 @@
 <!--
     Anything you put in between the double-dash arrow symbols shown around
     this block of text is designated a 'comment' intended for human coders
-    and ignored by the computer. The top "<!DOCTYPE html>" line of code 
+    and ignored by the computer. The top "<!DOCTYPE html>" line of code
     declares that this text file is to be interpreted as HTML code.
 -->
 
@@ -12,7 +12,7 @@
 <!--
     This opening tag marks the start of the html code.  Everything below
     until the </html> closing tag is part of this element. "lang" is an
-    attribute defining the language of the website. The value "en" 
+    attribute defining the language of the website. The value "en"
     indicates this site is written in English. We indent the content
     inside an element to make it easier for people to read and understand.
 -->
@@ -27,28 +27,28 @@
 
         <meta name="author" content="Aylin">
         <!--
-            Some tags like "meta" are self-closing. They have "attributes" 
+            Some tags like "meta" are self-closing. They have "attributes"
             but no inner content and they don't need or use a closing tag.
         -->
 
         <title>Aylin's Screenprinting Project</title>
         <!--The 'title' is what's displayed in the browser tab.-->
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{% static 'core/style.css' %}">
         <!--
-            HTML (HyperText Markup Language) code is for the website 
-            content. CSS (Cascading Style Sheets) code is for the website 
-            style. The line above tells the browser the file location and 
+            HTML (HyperText Markup Language) code is for the website
+            content. CSS (Cascading Style Sheets) code is for the website
+            style. The line above tells the browser the file location and
             file name to find this code that you'll write/edit there.
         -->
 
     </head>
 
     <body> <!--Everything to be displayed in the browser window.-->
-        
+
         <h1>Screen Print Design</h1>
         <p>By: Aylin Mendieta</p>
-        
+
 <h2>Introduction</h2>
 
 <h3>In Mr.Sinusas class we started a project, a sceen print. We learnd to use Adobe Photoshop to edit photograph(s) into simple image(s) with only 1 to 3 colors. We started with an a small introduction of how to do our screen print design. We answered some questions about we wanted to do and what we wanted our screen print to represent. We learned how to use the different functions of the camera and how they affect your pictures</h3>
@@ -71,7 +71,7 @@
 
 <img src="{% static 'core/sink.png' %}" alt="sink" width="600" height="500">
 
-<h3>In Adobe Illustrator we separated the colors if our design needed two colors. After separating the two different screen prints we choose a size for our design that we were going to use as a guide to build the frame and have some space for the paint to not to get stuck and ruin our design. After this we were done with techonology for a while.</h3> 
+<h3>In Adobe Illustrator we separated the colors if our design needed two colors. After separating the two different screen prints we choose a size for our design that we were going to use as a guide to build the frame and have some space for the paint to not to get stuck and ruin our design. After this we were done with techonology for a while.</h3>
 
 <h2>This is my final design.</h2>
 
@@ -83,43 +83,43 @@
 
 <h2>Phisycal Work, Frame, and Stencil</h2>
 
-<h3>We started with meausring the wood and measure the first two sides of the frame(the height and width). After that we learned how to use the saw (the machine for cutting wood) and we started cutting with supervicion. We cut the first two pieces and then use them as a guide to cut the other ones. If the project needed more than one frame they would need to do the same thing twice. We learned how to glue them together, and learned how to use the stapler. We needed the help of another classmate to hold it so it was easier to glue and staple the frame together. After we were done with the frame we started measuring the screen, we first placed the frame in one of the corners of the screen and then meausure 3 inches for each side and connected as a guide to cut. We staple the screen to the frame, for this step we had to strech the screen so the paint for later would not get stuck in the frame and ruin our project.</h3> 
+<h3>We started with meausring the wood and measure the first two sides of the frame(the height and width). After that we learned how to use the saw (the machine for cutting wood) and we started cutting with supervicion. We cut the first two pieces and then use them as a guide to cut the other ones. If the project needed more than one frame they would need to do the same thing twice. We learned how to glue them together, and learned how to use the stapler. We needed the help of another classmate to hold it so it was easier to glue and staple the frame together. After we were done with the frame we started measuring the screen, we first placed the frame in one of the corners of the screen and then meausure 3 inches for each side and connected as a guide to cut. We staple the screen to the frame, for this step we had to strech the screen so the paint for later would not get stuck in the frame and ruin our project.</h3>
 
 <h2>This is the wood that I use.</h2>
 
-<img src="{% static 'core/wood.JPG' " alt="wood" width="400" height="500">
+<img src="{% static 'core/wood.JPG' %}" alt="wood" width="400" height="500">
 
 <h2>This is me cutting the wood.</h2>
 
-<img src="saww.JPG" alt="cuttingwood" width="400" height="500">
+<img src="{% static 'core/saww.JPG' %}" alt="cuttingwood" width="400" height="500">
 
 <h2>This is me stapling my frame with the screen.</h2>
 
-<img src="stapling.JPG" alt="staplingtheframe" width="400" height="500">
+<img src="{% static 'core/stapling.JPG' %}" alt="staplingtheframe" width="400" height="500">
 
 <h3>We finished the frame and started to use the craft cutting machine, for this step we had to measure before starting. We used Silhouette America to measured how big we wanted our design to be, then we maked a small square to measure 1 inch in both sides and we flip it. We placed the stencil in the cutting machine and then sent our design. Once the cutting machine was done we use a niddle to take the part that was painted out leaving the white section. We used a small iron, so the stencil could stick to the screen, and then we taped all the edges of the screen and the frame. After the frame was done we started the printing, we printed in 2 pieces of paper to start, then we print on fabric, and finally in a box. This was all the phisycal work.</h3>
 
 <h2>This is me using Silhouette America.</h2>
 
-<img src="silhouetteamerica.JPG" alt="silhoutteamerica" width="600" height="500">
+<img src="{% static 'core/silhouetteamerica.JPG' %}" alt="silhoutteamerica" width="600" height="500">
 
 <h2> The cutting machine we used.</h2>
 
-<img src="cuttingmachine.JPG" alt="cutstencil" width="500" height="500">
+<img src="{% static 'core/cuttingmachine.JPG' %}" alt="cutstencil" width="500" height="500">
 
 <h2>My final designs printed.</h2>
 <div class="side-by-side">
 
-<img src="box.JPG" alt="boxwithprint" width="300" height="400">
-<img src="fabricprint.JPG" alt="fabric" width="300" height="400">
-<img src="paperprint.JPG" alt="paper" width="300" height="400">
+<img src="{% static 'core/box.JPG' %}" alt="boxwithprint" width="300" height="400">
+<img src="{% static 'core/fabricprint.JPG' %}" alt="fabric" width="300" height="400">
+<img src="{% static 'core/paperprint.JPG' %}" alt="paper" width="300" height="400">
 </div>
 
 <h2>Reflection of what we enjoyed</h2>
 
 <h3>I enjoyed building the frame, I think it was the easiest part of this project. We learned how to build and use different tools. I thik that since building was the easiest part I was able to help more people. I helped my classmates building their frames, printing, and designing. I asked if they needed something and taking pictures.</h3>
 
-<img src="frame.JPG" alt="frame" width="400" height="500">
+<img src="{% static 'core/frame.JPG' %}" alt="frame" width="400" height="500">
 
 <h2>Reflection of challenges</h2>
 
@@ -129,11 +129,11 @@
 
 <h3>The 21st century section I would say that represents me is “Critical Thinking and Problem solving”. In this section I think that “solve problems” is what I did the most during this project. I think this because I planed my design but I had to change some things, but I also needed to know how to fish them. My filters were a problem for me at first because It was going to make it hard to separate it from the stencil. I also added a line for the finger because the the finger was going to lose its shape. Other problem that I faced was measuring my design, the frame, and the screen because I needed to have whole numbers so it could be easier to cut. At the end I solved all this problems and I was persistent.</h3>
 
- 
 
 
 
 
-        
+
+
     </body>
 </html>
